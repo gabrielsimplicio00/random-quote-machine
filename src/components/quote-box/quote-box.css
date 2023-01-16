@@ -1,0 +1,35 @@
+.QuoteBox {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 40%;
+  height: 60%;
+  background-color: white;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.quote {
+  padding: 10px;  
+}
+
+.quote-text {
+  flex-grow: 1;
+}
+
+.quote-author {
+  align-self: flex-end;
+}
+
+.quote-button {
+  align-self: flex-end;
+}
+
+.new-quote {
+  background-color: rgb(255, 255, 255);
+  padding: 5px;
+  border-radius: 8px;
+  color: black;
+}
