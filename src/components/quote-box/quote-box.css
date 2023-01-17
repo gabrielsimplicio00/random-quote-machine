@@ -1,35 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+* {
+  font-family: 'Raleway', sans-serif;
+}
+
 .QuoteBox {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  width: 40%;
-  height: 60%;
+  width: 40vw;
+  height: 270px;
   background-color: white;
   border-radius: 5px;
-  padding: 10px;
+  padding: 20px;
 }
 
 .quote {
+  align-self: center;
   padding: 10px;  
 }
 
 .quote-text {
   flex-grow: 1;
+  font-size: 1.7rem;
+  margin: 0 10px 0 10px;
+  align-self: center;
+  text-align: center;
 }
 
 .quote-author {
+  font-size: 1.2rem;
   align-self: flex-end;
 }
 
 .quote-button {
-  align-self: flex-end;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
 
-.new-quote {
+.new-quote, .tweet {
   background-color: rgb(255, 255, 255);
-  padding: 5px;
-  border-radius: 8px;
-  color: black;
+  padding: 10px 15px;
+  border-radius: 5px;
+  background-color: rgb(80, 143, 148);
+  color: white;
+  border: 0;
+  cursor: pointer;
 }

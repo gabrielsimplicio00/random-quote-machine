@@ -1,11 +1,14 @@
 import './button.css'
 
-function Button() {
-  return (
-    <div className='Button'>
-      
-    </div>
-  )
-}
+// class Button {
 
-export default Button
+//   render() {
+//     return (
+//       <div className='Button'>
+//         <button className='new-quote' onClick={this.chooseSentence}>New Quote</button>
+//       </div>
+//     )
+//   }
+// }
+
+// export default Button
